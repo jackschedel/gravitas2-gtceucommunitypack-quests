@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultra_high_voltage"
+	group: "6A4ED78F1D529DE3"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "0AB2CB848B75A761"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7C0522C3153480EC"
+			size: 1.5d
+			tasks: [{
+				id: "3964305BF4F5C2FB"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2DF1F40CA3CB7320"
+			size: 1.5d
+			tasks: [{
+				id: "37B9AC182C12464B"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "3FBCB5EAA61C27A1"
+			optional: true
+			subtitle: "This will take 10 days of nonstop crafting"
+			tasks: [{
+				id: "70FB4A184AABB12D"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: false
+			description: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "08C29304A9D9FD3A"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				disable_toast: true
+				id: "7E1B20ABB9864AA0"
+				title: "Quests By AllTheMods"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+	]
+	title: "{gravitas.chapters.24.title}"
+}

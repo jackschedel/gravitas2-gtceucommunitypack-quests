@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblock_dilemma"
+	group: "78F1C802B893F66D"
+	icon: "gtceu:electric_blast_furnace"
+	id: "1A62C4A85BD8DE99"
+	order_index: 20
+	quest_links: [
+		{
+			id: "09FAF2701C9DF74B"
+			linked_quest: "1E9BE8D3F8A602DC"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "7EC1142DB79D4715"
+			linked_quest: "05ADBAE5B6F38956"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "0288D6EFCDA923BC"
+			linked_quest: "10987A49F647279E"
+			shape: "rsquare"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "70F542B7BAE00487"
+			linked_quest: "4AEAC79007790BD8"
+			shape: "rsquare"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "71AAF771BED52F42"
+			linked_quest: "1BE779AF4487E3EB"
+			shape: "rsquare"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "3C5BE8C666BD2F00"
+			linked_quest: "07906458E1A15683"
+			shape: "rsquare"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "302DE45494710F3B"
+			linked_quest: "16E7CAC7BC8BFD8E"
+			shape: "rsquare"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "70A81A1C0A74B3A2"
+			linked_quest: "6DDDE2268B691F74"
+			shape: "rsquare"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "3A713123878B70DF"
+			linked_quest: "2655B72C9FF3B372"
+			shape: "rsquare"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "690687A1A1883AB0"
+			linked_quest: "53DC6E32C41C94C3"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "7C6629451B570338"
+			linked_quest: "33263404ED38C6D2"
+			shape: "rsquare"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "556A2506CF23BE28"
+			linked_quest: "48141DBA683F6B5A"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "252CB6E2440E0140"
+			linked_quest: "24866E83B280C9AB"
+			shape: "rsquare"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "47D9BC881FDAC8E2"
+			linked_quest: "77B7B1EDD19831E0"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "gtceu:turbine_rotor"
+				tag: {
+					GT.PartStats: {
+						Material: "neutronium"
+					}
+				}
+			}
+			id: "14D6D08FCE4B4367"
+			linked_quest: "188A8C3DD38C2762"
+			shape: "rsquare"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "4A08164FBA82ADC1"
+			linked_quest: "4E9DED9569AA17F5"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "7DFDC6D5318F86A3"
+			linked_quest: "0F539EC8D2361791"
+			shape: "rsquare"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "48260377B4201F2F"
+			linked_quest: "189F84D6C76CDC8B"
+			shape: "rsquare"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "5BB0C97BA677B34B"
+			linked_quest: "466AC4DD902115EF"
+			shape: "rsquare"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "53488347EDFB2F4D"
+			linked_quest: "1AD309112ADD8D8D"
+			shape: "rsquare"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "22B58421B871C696"
+			linked_quest: "249FA99AADAC3710"
+			shape: "rsquare"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "30B2A31F23F6F2F2"
+			linked_quest: "328CFD483C26EA44"
+			shape: "rsquare"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "54461B8C575709AB"
+			linked_quest: "546CC03435E763CF"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "1C7E648B58D3316E"
+			linked_quest: "24366846FDA52CE3"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			id: "24D5FDF0C3196DB8"
+			linked_quest: "023FF9633765A0EB"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			id: "6D4536D882894DFB"
+			linked_quest: "42760D3A86EFDCA3"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			id: "29C59D0A5A1FBA4A"
+			linked_quest: "3B2D2C47BEBCFFA7"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "4FB570E59C198472"
+			linked_quest: "5979B0E13A1EDC9C"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "3D691A68E5A40728"
+			linked_quest: "1AD003487B4EC2EF"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "54E0410A8FB781C9"
+			linked_quest: "468EEFD9D2F69014"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "5D947621FA9E8177"
+			linked_quest: "1D6CC3C7F6BE4055"
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+	quests: [ ]
+	subtitle: ["A handy reference of all the multiblocks"]
+	title: "Multiblock Dilemma"
+}
