@@ -140,8 +140,8 @@
 				type: "item"
 			}]
 			title: "One Hundred Million Pressure Cookers"
-			x: 0.625d
-			y: 0.25d
+			x: 1.7249999999999992d
+			y: -3.9500000000000006d
 		}
 		{
 			dependencies: ["16A6AE5C770DB83A"]
@@ -255,7 +255,7 @@
 			}]
 			title: "HV Assembling Machine"
 			x: 1.75d
-			y: -0.75d
+			y: 0.25d
 		}
 		{
 			dependencies: ["16B735F9C391D260"]
@@ -276,7 +276,7 @@
 			}]
 			title: "Infinite Water"
 			x: 1.75d
-			y: 0.375d
+			y: 1.375d
 		}
 		{
 			dependencies: ["124B32A0583A636A"]
@@ -729,8 +729,8 @@
 				}
 			]
 			title: "The Cleanroom"
-			x: 5.35d
-			y: -0.7d
+			x: 5.549999999999999d
+			y: -0.75d
 		}
 		{
 			description: [
@@ -974,8 +974,8 @@
 				}
 			]
 			title: "Phosphorus Boules"
-			x: 5.299999999999999d
-			y: 0.8000000000000003d
+			x: 5.549999999999999d
+			y: 0.75d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
@@ -1098,7 +1098,7 @@
 			]
 			title: "SMD Components"
 			x: 2.875d
-			y: 0.375d
+			y: 1.375d
 		}
 		{
 			dependencies: ["4C3805F75C9EE3DD"]
@@ -1124,7 +1124,7 @@
 			]
 			title: "More SMD Components"
 			x: 2.875d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1300,6 +1300,57 @@
 			title: "Dense Coprocessors"
 			x: 9.0d
 			y: -5.25d
+		}
+		{
+			dependencies: ["16B735F9C391D260"]
+			description: [
+				"&3Molecular Assemblers&r can be used to automate Crafting Table recipes, which means you can automate just about anything now."
+				""
+				"To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other."
+				""
+				"Using higher-tier materials in crafting will yield more Molecular Assemblers."
+				"{@pagebreak}"
+				"&cWarning:&r Try to avoid using GT tools in AE2 autocrafting! It causes AE2 to freak out... you may or may not destroy the TPS, or even worse, end up having thousands of tools being crafted as soon as one of them breaks."
+				""
+				"If you're stubborn enough to &oreally&r want to use GT tools in AE2 autocrafting, prioritise encoding recipes that use tools with high durability, but &4do not&r setup autocrafting for the tools themselves. Instead, use the alternate &3Assembling Machine&r recipes."
+			]
+			icon: "ae2:molecular_assembler"
+			id: "73C403594CF94BC8"
+			size: 0.66d
+			subtitle: "Autocrafting at last!"
+			tasks: [{
+				id: "4744774E2B40D0DD"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "Autocrafting"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"10FB27DD3C7BEC2F"
+				"16B735F9C391D260"
+			]
+			description: [
+				"&aPatterns&r are used for AE2 autocrafting. Using &aPolyvinyl Chloride&r increases the yield by &64 times&r, and higher-tier plastics have even greater yields."
+				""
+				"&3Molecular Assemblers&r aren't available for a little while more, but you can still automate machines with &9ME Interfaces&r."
+				""
+				"A sub-note for autocrafting... whilst it's possible to perform chemical chains on-demand with AE2, doing so can build some bad habits that'll come back around to bite you in higher tiers. We urge you to passive things wherever you can."
+			]
+			icon: "ae2:blank_pattern"
+			id: "40F0FA4E9816816A"
+			size: 0.66d
+			subtitle: "Autocrafting at last!"
+			tasks: [{
+				id: "70FB68E306CE10EC"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			title: "Patterns"
+			x: 0.5d
+			y: 0.20000000000000004d
 		}
 	]
 	subtitle: ["Scale up your power and begin advanced chemistry"]
