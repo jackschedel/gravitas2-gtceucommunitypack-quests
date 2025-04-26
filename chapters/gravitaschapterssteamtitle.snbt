@@ -283,6 +283,7 @@
 				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing &7(liquids travelling in an undesired direction)&r."
 			]
 			id: "682CCD6B55410ABE"
+			shape: "square"
 			subtitle: "Liquids, gases... we don't discriminate"
 			tasks: [{
 				count: 6L
@@ -324,6 +325,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "{gravitas.quest.steam.subt.forgeh}"
 			tasks: [{
 				id: "53F1A8D274E2A507"
@@ -442,6 +444,7 @@
 				"Out of all the &6Steam Age&r machines, this is the most steam-hungry. If you ever find yourself running out of steam, give your machine a &alove-tap&r with &dany Rubber Mallet&r to momentarily pause it."
 			]
 			id: "0ED921E26B0BB257"
+			shape: "square"
 			subtitle: "{gravitas.quest.steam.subt.alloysm}"
 			tasks: [{
 				id: "776137D61F77620E"
@@ -466,6 +469,7 @@
 				"Our (&oimportant!&r) advice: it's actually better to keep directly smelting for now! The efficiency loss is made up with faster mining. Use the Macerator to make things like &aClay Dust&r instead!"
 			]
 			id: "59BDE76B679AB4CC"
+			shape: "square"
 			subtitle: "{gravitas.quest.steam.subt.macerator}"
 			tasks: [{
 				id: "1AFE2A82B2D1EAC2"
@@ -521,6 +525,7 @@
 				"&l&3Lore:&r&o This material originally comes from RedPower - what a throwback!"
 			]
 			id: "2A3517E5B9B0D69D"
+			shape: "square"
 			subtitle: "{gravitas.quest.steam.subt.reda}"
 			tasks: [{
 				count: 15L
@@ -782,7 +787,7 @@
 				"Wires may be expensive right now, but they'll get a lot cheaper in &7LV&r."
 			]
 			id: "2EDA1A79B4E8B77B"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.5d
 			subtitle: "{gravitas.quest.steam.subt.craftingforlv}"
 			tasks: [{
@@ -829,12 +834,12 @@
 			description: [
 				"Crafting Vacuum Tubes might make you question your existence. Sorry about that."
 				""
-				"This is mostly due to the fact that Wires and Rods are &7(sadly)&r very expensive right now, but they'll get cheaper in &7LV&r."
+				"Glass tubes are a pain - plus Wires and Rods are &7(sadly)&r very expensive right now, but they'll all get cheaper and easier in &7LV&r."
 				""
 				"Vacuum Tubes are also technically your first Ultra Low Voltage (&8ULV&r) Circuit! Congratulations! You won't find very much use for these by themselves, though."
 			]
 			id: "6D3778D9A1EC881D"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.5d
 			subtitle: "{gravitas.quest.steam.subt.craftingforlv}"
 			tasks: [{
@@ -962,7 +967,7 @@
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "44ED867BF45FB88C"
-			shape: "gear"
+			shape: "square"
 			size: 1.5d
 			subtitle: "Steel Yourself for Greater Things"
 			tasks: [
@@ -1046,7 +1051,7 @@
 			]
 			icon: "gtceu:hp_steam_compressor"
 			id: "1615389D66DC8B97"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "Pressure can be good sometimes"
 			tasks: [{
@@ -1100,7 +1105,7 @@
 			]
 			icon: "gtceu:wooden_tank_valve"
 			id: "6FD466467AD09BF4"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "So long, and Tanks for all the fish!"
 			tasks: [
@@ -1314,7 +1319,7 @@
 				"&l&3Lore:&r&o This Multiblock was ported from GT IMPACT, a classic 1.7.10 GregTech modpack."
 			]
 			id: "3362B1CBAD67D062"
-			shape: "gear"
+			shape: "square"
 			size: 1.1d
 			subtitle: "There's no such thing as \"free\" water"
 			tasks: [{
@@ -1340,7 +1345,7 @@
 				"&l&3Lore:&r&o These drums are actually ported from GregTech 6."
 			]
 			id: "75DED88C33A40509"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "Just kidding, tanks for fluids"
 			tasks: [{
@@ -1367,6 +1372,7 @@
 			]
 			icon: "gtceu:potin_normal_fluid_pipe"
 			id: "3D482E25A69A65B9"
+			shape: "square"
 			size: 1.0d
 			subtitle: "...I'm going into battle, and I need only your finest Potin."
 			tasks: [{
@@ -1407,7 +1413,7 @@
 			]
 			icon: "gtceu:steel_frame"
 			id: "5AB5076169396F7B"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "Spaghetti has never looked so swanky!"
 			tasks: [{
@@ -1463,7 +1469,7 @@
 			]
 			icon: "gtceu:tin_small_item_pipe"
 			id: "298E8C1B02F74197"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "All your logistics woes are solved"
 			tasks: [{
@@ -1511,7 +1517,7 @@
 			]
 			icon: "gtceu:crushed_gold_ore"
 			id: "020CB80770F8031D"
-			shape: "circle"
+			shape: "square"
 			size: 1.0d
 			subtitle: "...and how do I get rid of it?"
 			tasks: [{
@@ -1527,7 +1533,7 @@
 			dependencies: ["0ED921E26B0BB257"]
 			description: ["Invar has &650% more durability&r when used in GregTech tools compared to Iron (yes, that is the same as &aWrought Iron&r), and comes with inherent &bEfficiency I&r. Great for mining - you might want to consider using this in your tools if you &5haven't unlocked&r Steel."]
 			id: "7507A17D2E7AC647"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "An Iron-Nickel alloy"
 			tasks: [{
@@ -1635,6 +1641,7 @@
 			]
 			icon: "gtceu:steam_grinder"
 			id: "5952838D4B0CF2FC"
+			shape: "square"
 			size: 1.0d
 			subtitle: "The Steam Macerator's big brother"
 			tasks: [
@@ -1680,7 +1687,7 @@
 			]
 			icon: "gtceu:lv_electric_motor"
 			id: "0AA70E27500C482C"
-			shape: "gear"
+			shape: "square"
 			size: 2.0d
 			subtitle: "Low Voltage beckons..."
 			tasks: [{
