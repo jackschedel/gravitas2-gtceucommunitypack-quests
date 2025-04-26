@@ -5,7 +5,7 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:hv_electric_motor"
 	id: "237BDB19A9495869"
-	order_index: 3
+	order_index: 5
 	quest_links: [
 		{
 			id: "2583D0B64E51FAC8"
@@ -48,7 +48,7 @@
 			]
 			icon: "gtceu:hv_machine_casing"
 			id: "2D01E80DE837F6A6"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			tasks: [{
 				count: 6L
@@ -195,7 +195,7 @@
 			]
 			icon: "gtceu:hv_electric_motor"
 			id: "029CF0D9E5097F87"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Wouldn't you agree? Fun!"
 			tasks: [
@@ -439,7 +439,7 @@
 			]
 			icon: "gtceu:rutile_dust"
 			id: "59DFC4DA7D29C315"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "...means it WASN'T Titanium!"
 			tasks: [
@@ -549,9 +549,18 @@
 				""
 				"Whilst Multiblock generators are much more expensive, you'll find them to be much more energy efficient!"
 			]
-			icon: "gtceu:titanium_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:titanium_ingot"
+			}
 			id: "7FA0ACB7F161F378"
-						shape: "gear"
+			shape: "gear"
 			size: 1.2d
 			subtitle: "Titanite Slab"
 			tasks: [{
@@ -570,7 +579,7 @@
 				""
 				"You already know the drill from the Chemical Bath, so let's get right to the chase."
 				"{@pagebreak}"
-				"Install an &aItem Tag Filter&r Cover on the &3Input Bus&r of your &3Vacuum Freezer&r, open it and set to whitelist &e&lhot_ingots&r. The slot is to &dtest&r items to make sure you configured the Filter properly in case you forgot. Drag ingots from JEI!"
+				"Install an &aItem Tag Filter&r Cover on the &3Input Bus&r of your &3Vacuum Freezer&r, open it and set to whitelist &e&lhot_ingots&r. The slot is to &dtest&r items to make sure you configured the Filter properly in case you forgot. Drag ingots from EMI!"
 				""
 				"From here, you now have the option to route either with &9Item Pipes&r or &9AE2&r."
 				"{@pagebreak}"
@@ -679,7 +688,7 @@
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "41D32C5178760F47"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "...but not the end of your playthrough"
 			tasks: [{
 				count: 12L
@@ -844,7 +853,7 @@
 			]
 			icon: "gtceu:polytetrafluoroethylene_plate"
 			id: "7CC79617A4965F25"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "A.K.A - Teflon"
 			tasks: [
 				{
@@ -930,7 +939,7 @@
 			hide_dependent_lines: true
 			icon: "gtceu:large_chemical_reactor"
 			id: "528CE69DA4358B2E"
-						shape: "gear"
+			shape: "gear"
 			size: 1.3d
 			subtitle: "The Magic Box to end all Magic Boxes"
 			tasks: [
@@ -1030,13 +1039,6 @@
 			]
 			icon: "minecraft:ender_pearl"
 			id: "4024C831C77101CA"
-									display: {
-							Name: "{\"text\":\":)\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
 			size: 0.75d
 			subtitle: "Darn \"artificial gating\""
 			tasks: [
@@ -1069,7 +1071,12 @@
 			]
 			icon: "gtceu:phosphorus_boule"
 			id: "017019EB38F7A18C"
-						size: 0.75d
+			rewards: [{
+				id: "69C519E1CE7B94F0"
+				item: "gtceu:hv_lithium_battery"
+				type: "item"
+			}]
+			size: 0.75d
 			subtitle: "That's dope, bro!"
 			tasks: [
 				{
@@ -1243,7 +1250,7 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"The &3HV Macerator&r finally unlocks more of the slots shown in JEI. With this, the first &9three&r slots are now available. This allows you to receive the &6unique ore Byproduct&r from macerating &dThermal &dCentrifuged Ore&r."
+				"The &3HV Macerator&r finally unlocks more of the slots shown in EMI. With this, the first &9three&r slots are now available. This allows you to receive the &6unique ore Byproduct&r from macerating &dThermal &dCentrifuged Ore&r."
 				""
 				"Macerating Ores costs &a32 EU/t&r with &5two overclocks&r, which makes this machine able to fit in &7LV&r lines - very, very convenient."
 				""
@@ -1296,27 +1303,6 @@
 			title: "Ammonia"
 			x: 6.75d
 			y: -0.75d
-		}
-		{
-			dependencies: ["4024C831C77101CA"]
-			description: [
-				"If you're looking for a change of scene, the &5Void Dimension&r is a perfectly empty area for you to build your factory."
-				""
-				"It wouldn't be unwise to procure some manner of &aflight&r before venturing here - maybe look around and see if this pack has &6any options&r."
-			]
-			icon: "javd:portal_block"
-			id: "1011551290D3D7EA"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Goodbye, cruel Overworld"
-			tasks: [{
-				id: "19CC2402A14AE77C"
-				item: "javd:portal_block"
-				type: "item"
-			}]
-			title: "Void Dimension Portal"
-			x: 9.0d
-			y: 0.375d
 		}
 		{
 			dependencies: ["55552589C581EE9E"]
@@ -1401,12 +1387,12 @@
 				""
 				"The crafting ratio is in your favour, so you'll likely have more &eparallel autocrafting power&r than you'd need to finish the pack."
 			]
-			icon: "mae2:4x_crafting_accelerator"
+			icon: "gtceu:iv_compressor"
 			id: "1D8170A19E54C5B9"
 			size: 0.75d
 			subtitle: "Who are you calling Dense?"
 			tasks: [{
-				id: "074BEBAAF5C3FF1F"
+				id: "78555B28E522B11F"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -1414,24 +1400,19 @@
 						items: [
 							{
 								Count: 1b
-								id: "mae2:4x_crafting_accelerator"
+								id: "gtceu:iv_compressor"
 							}
 							{
 								Count: 1b
-								id: "mae2:16x_crafting_accelerator"
+								id: "gtceu:luv_compressor"
 							}
 							{
 								Count: 1b
-								id: "mae2:64x_crafting_accelerator"
-							}
-							{
-								Count: 1b
-								id: "mae2:256x_crafting_accelerator"
+								id: "gtceu:zpm_compressor"
 							}
 						]
 					}
 				}
-				title: "Dense Coprocessors"
 				type: "item"
 			}]
 			title: "Dense Coprocessors"
