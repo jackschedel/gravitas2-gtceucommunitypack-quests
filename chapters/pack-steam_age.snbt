@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "steam_age"
+	filename: "pack-steam_age"
 	group: "78F1C802B893F66D"
 	icon: "gtceu:bronze_brick_casing"
 	id: "3B89FB8839204148"

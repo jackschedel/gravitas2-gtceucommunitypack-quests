@@ -2,7 +2,7 @@
 	autofocus_id: "01E88C8523658529"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ev__extreme_voltage"
+	filename: "pack-ev__extreme_voltage"
 	group: "78F1C802B893F66D"
 	icon: "gtceu:ev_electric_motor"
 	id: "7FB9F636D95820A3"

@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "hv__high_voltage"
+	filename: "pack-hv__high_voltage"
 	group: "78F1C802B893F66D"
 	icon: "gtceu:hv_electric_motor"
 	id: "237BDB19A9495869"

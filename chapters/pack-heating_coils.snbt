@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "heating_coils"
+	filename: "pack-heating_coils"
 	group: "78F1C802B893F66D"
 	icon: "gtceu:cupronickel_coil_block"
 	id: "7C1306341997601D"

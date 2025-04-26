@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "iv__insane_voltage"
+	filename: "pack-iv__insane_voltage"
 	group: "78F1C802B893F66D"
 	icon: "gtceu:iv_electric_motor"
 	id: "32EF20533F323E02"
