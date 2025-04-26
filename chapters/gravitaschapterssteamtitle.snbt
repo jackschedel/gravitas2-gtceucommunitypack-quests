@@ -305,10 +305,6 @@
 				"With the creation of this machine, many recipes that once required you to use a hammer can instead be made here!"
 				""
 				"It can process &bCobblestone into Gravel&r, and &dGravel into Sand&r - and it's zippy at that to boot."
-				""
-				"Last but not least, it makes &aPlates&r at a better ratio: &6three Ingots for two Plates&r. A worthwhile investment!"
-				""
-				"You know what? &aBonus&r! We'll give you the &8Anvil&r back if you craft the Forge Hammer. This is a gentle reminder that you can repair GregTech tools in an Anvil."
 			]
 			id: "7D50B0BB00362F02"
 			rewards: [{
@@ -1098,10 +1094,6 @@
 				"Valves can &9auto-output&r by placing them on the &dbottom layer&r and making them &dface down&r (as always, use a &5Wrench&r to adjust their facing)."
 				""
 				"Unlike &3Drums&r, these Tanks aren't portable... but you probably guessed that already."
-				""
-				"This Quest generously rewards an extra &6Coke Oven&r. Make the most of GTCEu's &bwallsharing&r mechanic, and place it next to an existing Coke Oven to save on casings."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o Just like Drums, these multiblocks are ported from GregTech 6."
 			]
 			icon: "gtceu:wooden_tank_valve"
 			id: "6FD466467AD09BF4"
@@ -1269,10 +1261,8 @@
 				"34FF68125977821B"
 			]
 			description: [
-				"The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
-				""
 				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
-				"{@pagebreak}"
+				""
 				"Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r &7(Launch!)&r may occur under the following conditions:"
 				""
 				"- The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
@@ -1556,14 +1546,9 @@
 		{
 			dependencies: ["7507A17D2E7AC647"]
 			description: [
-				"&o...or little brother. Don't let him know!&r"
-				""
 				"The &3Steam Oven&r is a great multiblock option if you need &6effortlessly smelt large quantities of items.&r No more lines of furnaces that you have to manually empty and refuel!"
 				""
 				"It effectively behaves as a parallel furnace, smelting up to 8 items at a time for a low cost of Steam."
-				"{@pagebreak}"
-				""
-				"&l&3Lore:&r&o This Multiblock - despite being very similar to its brother, the Steam Grinder - isn't ported from a GregTech version or addon. Its actual progenitor is the Steam Oven from Railcraft, which dates back to 1.4.7!"
 			]
 			icon: "gtceu:steam_oven"
 			id: "002D5626B76FA68D"
