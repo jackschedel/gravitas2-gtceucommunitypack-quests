@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apotheosis_gear"
-	group: "4D27B882A1217B68"
+	group: "2FC15B7B44843801"
 	icon: "apotheosis:mythic_material"
 	id: "6693050B0EE71CEB"
 	images: [
@@ -95,7 +95,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
