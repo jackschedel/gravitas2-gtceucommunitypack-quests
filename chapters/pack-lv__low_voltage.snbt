@@ -153,8 +153,8 @@
 				type: "item"
 			}]
 			title: "But what are Amps?"
-			x: 6.75d
-			y: 1.125d
+			x: 6.149999999999999d
+			y: 4.025d
 		}
 		{
 			dependencies: [
@@ -454,8 +454,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 2.25d
+			x: 6.750000000000002d
+			y: 2.2499999999999996d
 		}
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
@@ -502,7 +502,7 @@
 			}]
 			title: "Basic Thermal Centrifuge"
 			x: -0.375d
-			y: 3.375d
+			y: 3.175d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
@@ -528,19 +528,7 @@
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
-			description: [
-				"&lOutside of Ore Processing:&r"
-				""
-				"You can make &6Paper out of Wood&r so that you no longer rely on &aSugar Canes&9*&r. You're probably sick of them by now, especially if you've played Nomifactory."
-				""
-				"There are some other less important recipes, such as applying colours to various items and blocks, or bleaching them."
-				""
-				"&9*&r &aSugar&r is still useful as a requirement for &cTNT&r production in &6HV&r, so don't dismantle your setups."
-				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
-				""
-				"Some &aCrushed Ores&r have alternate routes when washed into &aPurified Ore&r, involving bathing in either &aMercury&r or &aSodium Persulfate&r. This step isn't really important, unless you really want that special &6Byproduct&r. This can be a nice alternate source of Gold (hint, hint!)."
-			]
+			description: ["Some &aCrushed Ores&r have alternate routes when washed into &aPurified Ore&r, involving bathing in either &aMercury&r or &aSodium Persulfate&r. This step isn't really important, unless you really want that special &6Byproduct&r. This can be a nice alternate source of Gold (hint, hint!)."]
 			id: "330BDB559A7BAB35"
 			size: 0.75d
 			subtitle: "The Chemical Bath bathes..."
@@ -551,7 +539,7 @@
 			}]
 			title: "Basic Chemical Bath"
 			x: 1.125d
-			y: 3.375d
+			y: 3.175d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
@@ -611,11 +599,7 @@
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
-			description: [
-				"Make this machine when you feel like it's time you invested into Batteries."
-				""
-				"It'll also be required if you want to make Storage Disks from &bApplied Energistics 2&r."
-			]
+			description: ["Make this machine when you feel like it's time you invested into Batteries."]
 			id: "37307A46E70011D3"
 			size: 0.75d
 			subtitle: "This machine does nothing exciting"
@@ -743,8 +727,6 @@
 				"The Autoclave is typically the last step of Gem Processing. It is used turn a select few &aGem Dusts&r back into regular Gems."
 				""
 				"It's veeeery slow - thus, it is generally not advised to crush gem ores at all, as the recovery process is too expensive."
-				""
-				"&9Note:&r In this modpack, the Autoclave is required to make &5Fluix Crystals&r if you're to progress in Applied Energistics. Sorry."
 			]
 			id: "22A1A629AF754066"
 			size: 0.75d
@@ -756,7 +738,7 @@
 			}]
 			title: "Basic Autoclave"
 			x: -1.125d
-			y: 4.125d
+			y: 3.9250000000000003d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
@@ -771,7 +753,7 @@
 			}]
 			title: "Basic Electromagnetic Separator"
 			x: 0.375d
-			y: 3.375d
+			y: 3.175d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
@@ -839,8 +821,8 @@
 				type: "item"
 			}]
 			title: "Basic Fluid Solidifier"
-			x: 4.5d
-			y: 4.5d
+			x: 4.799999999999999d
+			y: 5.099999999999998d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
@@ -923,7 +905,7 @@
 			}]
 			title: "Universal Macerator"
 			x: -1.125d
-			y: 3.375d
+			y: 3.175d
 		}
 		{
 			dependencies: ["3A8D7FC6F316C38C"]
@@ -942,8 +924,8 @@
 				type: "item"
 			}]
 			title: "Basic Gas Collector"
-			x: 1.125d
-			y: 6.75d
+			x: -2.31d
+			y: 7.59d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
@@ -972,7 +954,7 @@
 			}]
 			title: "Basic Packer"
 			x: -1.125d
-			y: 4.875d
+			y: 4.675000000000001d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
@@ -1006,8 +988,8 @@
 				}
 			]
 			title: "Basic Chemical Reactor"
-			x: 3.375d
-			y: 5.625d
+			x: 3.275d
+			y: 4.525000000000002d
 		}
 		{
 			dependencies: ["3D98819A799D2E64"]
@@ -1040,8 +1022,8 @@
 				}
 			]
 			title: "Dead Cells"
-			x: 4.5d
-			y: 5.625d
+			x: 3.7000000000000015d
+			y: 5.225000000000001d
 		}
 		{
 			dependencies: [
@@ -1053,7 +1035,7 @@
 				""
 				"You can also do the same for &6Gears&r and &6Small Gears&r, which will then be superseded when you make a &3MV Extruder&r."
 				""
-				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in JEI."
+				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the EXTRACTION recipe tier in JEI."
 			]
 			icon: "gtceu:rotor_casting_mold"
 			id: "115C4226F6473F0C"
@@ -1074,7 +1056,7 @@
 				}
 			]
 			title: "C-C-Combo!"
-			x: 5.525d
+			x: 5.725d
 			y: 4.824999999999999d
 		}
 		{
@@ -1135,8 +1117,8 @@
 				}
 			]
 			title: "Sapphire"
-			x: -2.25d
-			y: 5.625d
+			x: -1.8499999999999996d
+			y: 5.425000000000001d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
@@ -1161,7 +1143,7 @@
 			}]
 			title: "Basic Electrolyzer"
 			x: -1.125d
-			y: 5.625d
+			y: 5.425000000000001d
 		}
 		{
 			dependencies: [
@@ -1185,8 +1167,8 @@
 				type: "item"
 			}]
 			title: "Basic Cutter"
-			x: -1.125d
-			y: 6.75d
+			x: -2.31d
+			y: 6.729999999999999d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
@@ -1259,8 +1241,8 @@
 				type: "item"
 			}]
 			title: "Spray Can"
-			x: 3.375d
-			y: 6.75d
+			x: 4.075000000000001d
+			y: 4.15d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
@@ -1340,7 +1322,7 @@
 				type: "item"
 			}]
 			title: "Voiding Covers"
-			x: 5.625d
+			x: 5.725d
 			y: 6.75d
 		}
 		{
@@ -1392,7 +1374,7 @@
 			description: [
 				"The &3Arc Furnace&r uses a lil' bit of &9Oxygen&r to smelt items in a different fashion than Furnaces."
 				""
-				"You can use it to make easier &aWrought Iron&r, double your &aGlass&r, and gain access to &aAnnealed Copper&r."
+				"You can use it to make easier &aWrought Iron&r (smelt iron dust or ingot), double your &aGlass&r, and gain access to &aAnnealed Copper&r."
 				""
 				"It can also recycle various components and machines back to their original material."
 				"{@pagebreak}"
@@ -1408,29 +1390,8 @@
 				item: "gtceu:lv_arc_furnace"
 				type: "item"
 			}]
-			x: -2.25d
-			y: 7.875d
-		}
-		{
-			dependencies: ["3A8D7FC6F316C38C"]
-			description: [
-				"A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to &eG&r."
-				""
-				"Be sure to check out the &3Destruction Gadget&r and the &3Copy Paste Gadget&r."
-				""
-				"You &6should&r be able to charge this in the charger slot of any &bGregTech machine&r, but unfortunately, this is currently &cbugged&r. Have a look at the &dTurbo Charger&r quest in the top-right of this page if you want to charge this."
-			]
-			id: "0DAD0A6360448B39"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "A familiar face in the land of Greg"
-			tasks: [{
-				id: "65100C599DB0F30C"
-				item: "buildinggadgets2:gadget_building"
-				type: "item"
-			}]
-			x: -2.25d
-			y: 6.75d
+			x: -1.4499999999999997d
+			y: 6.175000000000001d
 		}
 		{
 			dependencies: [
@@ -1463,8 +1424,8 @@
 				type: "item"
 			}]
 			title: "Breath of Fresh Oxygen"
-			x: -1.125d
-			y: 7.875d
+			x: -0.625d
+			y: 6.175000000000001d
 		}
 		{
 			dependencies: ["5263F866638D875C"]
@@ -1515,7 +1476,7 @@
 				type: "item"
 			}]
 			title: "Gallium Arsenide"
-			x: 1.5d
+			x: 1.1999999999999997d
 			y: 7.875d
 		}
 		{
@@ -1565,7 +1526,7 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 6.625d
+			x: 6.225d
 			y: 7.875d
 		}
 		{
@@ -1604,7 +1565,7 @@
 			]
 			hide_dependent_lines: true
 			id: "45B71324028F6E68"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "Aluminium, not \"Aluminum\""
 			tasks: [{
 				id: "144F4F8EF61BEEA5"
@@ -1612,8 +1573,8 @@
 				type: "item"
 			}]
 			title: "Aluminium Dust"
-			x: -3.375d
-			y: 6.75d
+			x: -3.075000000000001d
+			y: 5.449999999999996d
 		}
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]

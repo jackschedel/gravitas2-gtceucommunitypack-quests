@@ -1013,6 +1013,30 @@
 			x: 2.0d
 			y: 4.5d
 		}
+		{
+			dependencies: [
+				"3A8D7FC6F316C38C"
+				"5ACD19E705D43C48"
+			]
+			description: [
+				"A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to &eG&r."
+				""
+				"Be sure to check out the &3Destruction Gadget&r and the &3Copy Paste Gadget&r."
+				""
+				"You &6should&r be able to charge this in the charger slot of any &bGregTech machine&r, but unfortunately, this is currently &cbugged&r. Have a look at the &dTurbo Charger&r quest in the top-right of this page if you want to charge this."
+			]
+			id: "2FEC64DFCB812EDE"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "A familiar face in the land of Greg"
+			tasks: [{
+				id: "221A9E795F32B528"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
 	]
 	title: "{gravitas.chapters.3.title}"
 }
