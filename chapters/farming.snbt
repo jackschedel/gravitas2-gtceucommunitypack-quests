@@ -5,7 +5,7 @@
 	group: "2FC15B7B44843801"
 	icon: "tfc:seeds/tomato"
 	id: "5063B0E3B65A6863"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

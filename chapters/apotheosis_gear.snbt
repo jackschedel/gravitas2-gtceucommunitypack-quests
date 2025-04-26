@@ -596,7 +596,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5C1BB559DD83E88F"]
 			id: "1453F05BD3D1AB45"
 			shape: "rsquare"
 			tasks: [
