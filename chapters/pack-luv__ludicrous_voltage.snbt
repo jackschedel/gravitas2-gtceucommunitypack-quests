@@ -5,7 +5,7 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:luv_electric_motor"
 	id: "262A03F6F4EC713C"
-	order_index: 6
+	order_index: 5
 	quest_links: [
 		{
 			id: "7F8B55C8510200AF"
@@ -769,8 +769,8 @@
 				type: "item"
 			}]
 			title: "LuV Prospector"
-			x: 4.5d
-			y: 3.375d
+			x: 4.899999999999999d
+			y: 3.575d
 		}
 		{
 			dependencies: [
@@ -958,23 +958,6 @@
 			title: "IV Magnetism"
 			x: 0.375d
 			y: 3.75d
-		}
-		{
-			dependencies: ["77B7B1EDD19831E0"]
-			description: ["The &aQuantum Bridge Card&r is an upgrade to the &9Quantum Link Tunnel&r, which gives &9Wireless Terminals&r access to your AE system with unlimited range, and from any dimension."]
-			icon: "ae2wtlib:quantum_bridge_card"
-			id: "602DA4B4820E9088"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Bridge over Troubled Water"
-			tasks: [{
-				id: "280DF4E4A7E5FC2A"
-				item: "ae2wtlib:quantum_bridge_card"
-				type: "item"
-			}]
-			title: "Infinite Wireless Range"
-			x: 3.63d
-			y: 5.28d
 		}
 		{
 			dependencies: ["0D7C978F9CDF771B"]

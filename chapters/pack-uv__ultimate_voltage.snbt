@@ -5,14 +5,14 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:uv_electric_motor"
 	id: "2E730D6F5A7C2E83"
-	order_index: 8
+	order_index: 7
 	quest_links: [
 		{
 			id: "5232A33368566616"
 			linked_quest: "6988AE94BE7B461F"
 			size: 0.75d
 			x: 5.625d
-			y: 3.75d
+			y: 1.75d
 		}
 		{
 			id: "194EA210B37DFEA0"
@@ -32,8 +32,8 @@
 			id: "395B2149ABE3A85F"
 			linked_quest: "42760D3A86EFDCA3"
 			size: 0.75d
-			x: 3.375d
-			y: 1.5d
+			x: 1.775d
+			y: -0.8d
 		}
 	]
 	quests: [
@@ -180,8 +180,8 @@
 				type: "item"
 			}]
 			title: "Network Switch"
-			x: 2.25d
-			y: 0.375d
+			x: 1.75d
+			y: 0.775d
 		}
 		{
 			dependencies: [
@@ -221,8 +221,8 @@
 				type: "item"
 			}]
 			title: "Data Module"
-			x: 3.375d
-			y: 0.375d
+			x: 2.875d
+			y: 0.07499999999999996d
 		}
 		{
 			dependencies: ["023FF9633765A0EB"]
@@ -266,8 +266,8 @@
 				type: "item"
 			}]
 			title: "Tritanium Coils"
-			x: 4.5d
-			y: 1.5d
+			x: 1.6999999999999997d
+			y: 2.6d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
@@ -345,8 +345,8 @@
 				}
 			]
 			title: "Total Euphoria"
-			x: 5.625d
-			y: 1.5d
+			x: 5.125d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -377,8 +377,8 @@
 				}
 			]
 			title: "Upgrading your Assembly Line III"
-			x: 4.5d
-			y: 0.375d
+			x: 3.7d
+			y: 0.775d
 		}
 		{
 			dependencies: ["6AF3A40BC9CE7122"]
@@ -396,8 +396,8 @@
 				type: "item"
 			}]
 			title: "UV Superconductors"
-			x: 2.25d
-			y: 1.5d
+			x: 1.75d
+			y: 1.7000000000000002d
 		}
 		{
 			dependencies: ["616DB394EB7D81D6"]
@@ -447,23 +447,7 @@
 			}]
 			title: "Neutronium-doped Silicon Boule"
 			x: 6.75d
-			y: -0.75d
-		}
-		{
-			dependencies: ["0009F48B6E385A47"]
-			description: ["The &aCreative Energy Cell&r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don't have to worry about blackouts or power anymore."]
-			id: "428C62749A1A1BAB"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Ok, maybe there are Creative items."
-			tasks: [{
-				id: "392079FDF410B9FD"
-				item: "ae2:creative_energy_cell"
-				type: "item"
-			}]
-			title: "Creative ME Energy"
-			x: 7.875d
-			y: -1.875d
+			y: -0.04999999999999999d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
@@ -546,7 +530,7 @@
 			}]
 			title: "Highly Advanced SoCs"
 			x: 6.75d
-			y: 0.375d
+			y: 0.7749999999999999d
 		}
 	]
 	subtitle: ["Bring your long journey to a well-deserved end"]

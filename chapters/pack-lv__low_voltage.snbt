@@ -302,7 +302,13 @@
 				""
 				"There are unique machines that do not process recipes, such as the &3Pump&r, &3Miner&r, &3Fisher&r, &3Item Collector&r, etc. These machines will output on their &7Front Face&r (which is still marked as a dot)."
 			]
-			icon: "minecraft:hopper"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
 			id: "64E1E87B8AF72968"
 			shape: "rsquare"
 			size: 0.66d
@@ -358,8 +364,8 @@
 				type: "item"
 			}]
 			title: "Basic Bender"
-			x: 4.5d
-			y: 1.125d
+			x: 3.3000000000000003d
+			y: 1.625d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
@@ -379,8 +385,8 @@
 				type: "item"
 			}]
 			title: "Basic Lathe"
-			x: 3.375d
-			y: 1.125d
+			x: 2.2750000000000004d
+			y: 0.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
@@ -600,8 +606,8 @@
 				type: "checkmark"
 			}]
 			title: "Programmed Circuits"
-			x: 3.3d
-			y: 1.98d
+			x: 2.8d
+			y: 2.1799999999999997d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
@@ -1068,8 +1074,8 @@
 				}
 			]
 			title: "C-C-Combo!"
-			x: 5.625d
-			y: 5.625d
+			x: 5.525d
+			y: 4.824999999999999d
 		}
 		{
 			dependencies: ["199361B5FEC959EA"]
@@ -1343,24 +1349,20 @@
 				"581CDF545E1EA1FD"
 			]
 			description: [
-				"&8Wait, we're not in the Steam Age anymore!"
-				""
-				"The reason we didn't present &7LV&r versions of &6Steam&r machines is because they are &4NOT&r required. You might not want to invest into an upgrade that does next to nothing. Except for &othis one&r specifically, because it's a big improvement over the &6Steam Age&r."
-				""
 				"The &3Basic Extractor&r gains Fluid capabilities, which enables &aFluid Extraction&r. Use it to melt Rubber that you previously solidified, to &dmelt Soldering Alloy&r for your circuits, and to &dmelt Red Alloy&r for the &6best Vacuum Tube recipe&r in the &3Assembler&r!"
 				"{@pagebreak}"
 				"&l&3Lore:&r&o Did you notice this machine doubles as both an Extractor and a Fluid Extractor? The two of them were separate machines in previous versions of GregTech."
 			]
 			id: "5B2696206205CB2E"
 			size: 0.75d
-			subtitle: "The Steam Extractor extracts..."
+			subtitle: "Extract this!"
 			tasks: [{
 				id: "5CD363C839475426"
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 6.75d
+			x: 5.75d
+			y: 5.75d
 		}
 		{
 			dependencies: [
@@ -1484,7 +1486,7 @@
 			}]
 			title: "Glued"
 			x: 0.0d
-			y: 7.875d
+			y: 8.875d
 		}
 		{
 			dependencies: [
@@ -1540,47 +1542,8 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 3.375d
-			y: 7.875d
-		}
-		{
-			dependencies: ["63CD0236B337EAAD"]
-			description: [
-				"Getting into Applied Energistics at this point is possible, but also a little bit involved..."
-				""
-				"You will need to make quite a few &7LV&r machines, and the &7LV-tier&r recipes for some AE2 items are comparatively expensive without access to more advanced technology."
-				""
-				"In &7LV&r, you're able to craft:"
-				""
-				"&6-&r Energy Acceptor"
-				""
-				"&6-&r ME Terminal"
-				""
-				"&6-&r 1k ME Storage component"
-				""
-				"&6-&r ME Chest"
-				"{@pagebreak}"
-				"&9Note:&r This pack includes &5Fluix Crystals&r, but they are generated as a GT material, rather than the default AE2 Fluix Crystals. To get them, put &dFluix Dust&r in the &aAutoclave&r, which is made from &7Certus Quartz Dust&r, &eNether Quartz Dust&o&r and &cRedstone&r in a &aMixer&r. No need to charge the Certus Quartz. It gets... charged in the Mixer... or something like that."
-				"{@pagebreak}"
-				"Additionally - a &6warning&r. Clicking on the Guide button in Applied Energistics 2 machine GUIs will most likely &ccrash your game&r due to an incompatibility with &eStarlight&r. If you're looking for guides on &bApplied Energistics 2&r, more information can be found:"
-				""
-				"The official &dApplied Energistics 2&r website: &9https://appliedenergistics.org/guides&r"
-				""
-				"An &binstructionary video&r made by &aPansmith&r, which covers Applied Energistics 2 on &6Minecraft 1.12.2&r. The fundamentals are still near-identical, however."
-				"&9https://www.youtube.com/watch?v=u0ouTWgdcXk&r"
-			]
-			id: "0E72017800A9766C"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Time to ditch those chests"
-			tasks: [{
-				id: "2080D5BB367332D3"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			title: "The Digital Age? Already!?"
-			x: 4.5d
-			y: 7.875d
+			x: 4.475d
+			y: 8.875d
 		}
 		{
 			dependencies: [
@@ -1602,7 +1565,7 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 5.625d
+			x: 6.625d
 			y: 7.875d
 		}
 		{
@@ -1630,7 +1593,7 @@
 			}]
 			title: "First MV Circuit!"
 			x: 7.875d
-			y: 7.875d
+			y: 8.875d
 		}
 		{
 			dependencies: ["2F1CCFEBAB71B1F3"]
@@ -1968,41 +1931,17 @@
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "We Drill Now? We Drill Now."
-			tasks: [
-				{
-					id: "0D2407D27B875AC3"
-					item: {
-						Count: 1
-						id: "gtceu:lv_iron_drill"
-						tag: {
-							Charge: 2147483647L
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-							}
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 2
-								MaxDamage: 767
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-							MaxCharge: 2147483647L
-						}
+			tasks: [{
+				id: "44DA91F8D0B8CA7A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/drills"
 					}
-					optional_task: true
-					type: "item"
 				}
-				{
-					id: "602D1C47F55AFC5D"
-					type: "checkmark"
-				}
-			]
+				type: "item"
+			}]
 			title: "Oh Yeah, we Drillin'"
 			x: 5.519855442176862d
 			y: 4.124574829931966d
@@ -2165,6 +2104,18 @@
 			title: "And they say GregTech is grindy..."
 			x: -1.1012329931972786d
 			y: 2.237499999999997d
+		}
+		{
+			dependencies: ["10ECB471A77F5136"]
+			id: "6FA2269B8BF5CE02"
+			size: 0.75d
+			tasks: [{
+				id: "760ED2EC84B771AE"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.6999999999999997d
 		}
 	]
 	subtitle: ["Tame electricity and make your first machines"]

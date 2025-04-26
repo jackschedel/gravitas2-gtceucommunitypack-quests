@@ -5,7 +5,7 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:mv_electric_motor"
 	id: "43E779CEEB25D55B"
-	order_index: 2
+	order_index: 1
 	quest_links: [{
 		id: "6FCAD016C795DE93"
 		linked_quest: "7567E885B7166603"
@@ -1003,7 +1003,7 @@
 				type: "item"
 			}]
 			title: "Advanced Circuit Assembler"
-			x: 7.875d
+			x: 7.475000000000001d
 			y: 0.375d
 		}
 		{
@@ -1054,7 +1054,7 @@
 			}]
 			title: "Best LV Circuits"
 			x: 7.875d
-			y: -0.75d
+			y: -0.7499999999999999d
 		}
 		{
 			dependencies: [
@@ -1078,7 +1078,7 @@
 				type: "item"
 			}]
 			title: "Best MV Circuits"
-			x: 7.875d
+			x: 8.375d
 			y: 1.5d
 		}
 		{
@@ -1102,7 +1102,7 @@
 				type: "item"
 			}]
 			title: "First EV Circuits!"
-			x: 7.875d
+			x: 8.375d
 			y: 3.75d
 		}
 		{
@@ -1126,7 +1126,7 @@
 				type: "item"
 			}]
 			title: "More HV Circuits"
-			x: 7.875d
+			x: 8.375d
 			y: 2.625d
 		}
 		{
@@ -1150,7 +1150,7 @@
 				type: "item"
 			}]
 			title: "Capacitors"
-			x: 7.875d
+			x: 8.375d
 			y: -1.875d
 		}
 		{
@@ -1206,7 +1206,7 @@
 				type: "item"
 			}]
 			title: "Inductors"
-			x: 9.0d
+			x: 10.0d
 			y: 0.375d
 		}
 		{
@@ -1331,8 +1331,8 @@
 				}
 			]
 			title: "Plastic Boards"
-			x: 7.875d
-			y: -3.0d
+			x: 10.075000000000001d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1373,8 +1373,8 @@
 				}
 			]
 			title: "Sodium Persulfate / Iron III Chloride"
-			x: 7.875d
-			y: -4.125d
+			x: 10.075d
+			y: -3.125d
 		}
 		{
 			dependencies: [
@@ -1693,8 +1693,8 @@
 				}
 			]
 			title: "US Simulator"
-			x: -1.125d
-			y: -0.75d
+			x: -1.725d
+			y: -0.15d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
@@ -2101,8 +2101,8 @@
 				}
 			]
 			title: "Long-Distance Fluids"
-			x: -3.375d
-			y: -0.75d
+			x: -2.875d
+			y: -0.1500000000000001d
 		}
 		{
 			dependencies: [

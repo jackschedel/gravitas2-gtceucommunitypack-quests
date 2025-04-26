@@ -938,6 +938,30 @@
 			x: 2.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["15BC783BB17EE2D4"]
+			id: "7F1BCDC6015450E3"
+			optional: true
+			tasks: [{
+				id: "657539BF8DFA3151"
+				item: "tfc:metal/bucket/red_steel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4C8385E2ACE406EE"]
+			id: "7EB88E199107EB87"
+			optional: true
+			tasks: [{
+				id: "7FB8D2CE696D71DA"
+				item: "tfc:metal/bucket/blue_steel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
 	]
 	title: "{gravitas.chapters.3.title}"
 }

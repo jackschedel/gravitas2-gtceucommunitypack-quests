@@ -5,21 +5,21 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:zpm_electric_motor"
 	id: "0945247E83444D90"
-	order_index: 7
+	order_index: 6
 	quest_links: [
 		{
 			id: "6BE70146903B5CBD"
 			linked_quest: "52D00CD3E8D1E293"
 			shape: "rsquare"
 			size: 0.66d
-			x: -1.5d
-			y: 2.25d
+			x: -3.2d
+			y: 1.25d
 		}
 		{
 			id: "21A3EAE297C446EC"
 			linked_quest: "24F0454B9A090C44"
 			size: 0.75d
-			x: -6.0d
+			x: -2.6999999999999997d
 			y: 2.25d
 		}
 	]
@@ -31,8 +31,6 @@
 				""
 				"These can only be found as loot from &6Jungle Temples&r. They're exceptionally rare - don't worry about finding one. "
 				""
-				"This quest is &6optional&r and is just for fun. Feel free to hit the checkbox if you just want the completion points!"
-				"{@pagebreak}"
 				"&l&3Lore:&r&o Zero Point Module, the full name of the ZPM tier, is also from Stargate. Its namesake is a device which generated crazy amounts of energy."
 			]
 			icon: "gtceu:zero_point_module"
@@ -53,8 +51,8 @@
 				}
 			]
 			title: "Zero Point Module"
-			x: -6.0d
-			y: 0.0d
+			x: -2.6999999999999997d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4C7C0F6A6598BC24"]
@@ -129,8 +127,8 @@
 				}
 			]
 			title: "Absolute Elation"
-			x: -6.0d
-			y: 1.125d
+			x: -2.1999999999999993d
+			y: 1.3250000000000002d
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
@@ -244,7 +242,7 @@
 			}]
 			title: "First UV Circuits!"
 			x: -3.75d
-			y: 3.375d
+			y: 4.375d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
@@ -267,8 +265,8 @@
 				type: "item"
 			}]
 			title: "Crystal SoC"
-			x: -3.75d
-			y: 1.125d
+			x: -5.150000000000002d
+			y: 3.725d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
@@ -287,8 +285,8 @@
 				type: "item"
 			}]
 			title: "Advanced Data Access Hatch"
-			x: -2.625d
-			y: 1.125d
+			x: -5.125d
+			y: 3.0250000000000004d
 		}
 		{
 			dependencies: [
@@ -324,7 +322,7 @@
 				}
 			]
 			title: "Naquadria"
-			x: -2.625d
+			x: -1.125d
 			y: 0.0d
 		}
 		{
@@ -386,8 +384,8 @@
 				}
 			]
 			title: "Mega Batteries"
-			x: -1.5d
-			y: 1.125d
+			x: -4.199999999999999d
+			y: 1.225d
 		}
 		{
 			dependencies: [
@@ -421,7 +419,7 @@
 				}
 			]
 			title: "Upgrading your Assembly Line II"
-			x: -2.625d
+			x: -3.725d
 			y: 2.25d
 		}
 		{
@@ -491,7 +489,7 @@
 			}]
 			title: "HPCA"
 			x: -3.75d
-			y: 2.25d
+			y: 3.25d
 		}
 		{
 			dependencies: ["6AFDA523304711DB"]
@@ -600,7 +598,7 @@
 				type: "item"
 			}]
 			title: "Darmstadtium"
-			x: -2.625d
+			x: -2.3249999999999997d
 			y: 4.5d
 		}
 		{
@@ -641,7 +639,7 @@
 				type: "item"
 			}]
 			title: "Americium"
-			x: -1.5d
+			x: -1.1999999999999997d
 			y: 3.375d
 		}
 		{
@@ -680,7 +678,7 @@
 			}]
 			title: "Advanced HPCA Components"
 			x: -4.875d
-			y: 3.375d
+			y: 4.375d
 		}
 		{
 			dependencies: [
@@ -707,7 +705,7 @@
 				type: "item"
 			}]
 			title: "Fusion Reactor II"
-			x: -2.625d
+			x: -2.3249999999999997d
 			y: 3.375d
 		}
 		{
