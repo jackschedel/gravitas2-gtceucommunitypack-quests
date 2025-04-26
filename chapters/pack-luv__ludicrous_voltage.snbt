@@ -5,7 +5,7 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:luv_electric_motor"
 	id: "262A03F6F4EC713C"
-	order_index: 6
+	order_index: 4
 	quest_links: [
 		{
 			id: "7F8B55C8510200AF"
@@ -417,7 +417,16 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o In Stargate, Trinium was strong enough to block a point-blank C4 explosion. It's considered to be a hundred times stronger than steel, at only one-hundreth the weight."
 			]
-			icon: "gtceu:trinium_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:trinium_ingot"
+			}
 			id: "0DC999F79A685194"
 			shape: "gear"
 			size: 1.2d
@@ -1088,7 +1097,7 @@
 			]
 			icon: "expatternprovider:pattern_modifier"
 			id: "5CE0B928479D8535"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "The &aPattern Modifier&r does A LOT!"
 			tasks: [{

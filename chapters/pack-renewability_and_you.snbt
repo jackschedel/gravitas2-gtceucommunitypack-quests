@@ -2,14 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pack-renewability_and_you"
-	group: "78F1C802B893F66D"
+	group: "78F1C802B893F66E"
 	icon: "minecraft:water_bucket"
 	id: "4C3D68FB57D3CC02"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["25289F9E8AE01C29"]
 			description: [
 				"You may be wondering how to obtain &6large quantities&r of common resources used in &bGregTech&r. This might be old news to seasoned players, but it's actually possible to set up &dpassive processes&r to make various materials and chemicals &2fully renewable&r."
 				""
@@ -53,26 +52,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["55D8E30978CBBC0D"]
-			description: ["Cobblestone is just the start of things. Let's make a Cobbleworks!"]
-			id: "54D73D049F8CD9FE"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Oh, we're only just getting started."
-			tasks: [{
-				consume_items: false
-				count: 64L
-				id: "72A52930F1754ABF"
-				item: "minecraft:cobblestone"
-				title: "Cobblestone"
-				type: "item"
-			}]
-			title: "The Joy of Cobblestone"
-			x: 0.33d
-			y: -1.65d
-		}
-		{
-			dependencies: ["54D73D049F8CD9FE"]
 			description: [
 				"&6Stone Dust&r can be centrifuged in &bMV&r for a wide range of miscellaneous materials. It's a slow and expensive process, but you may wish to check it out."
 				""
@@ -97,65 +76,6 @@
 			y: -1.65d
 		}
 		{
-			dependencies: ["54D73D049F8CD9FE"]
-			description: [
-				"Just Forge Hammer that Cobblestone and you'll get some &dGravel&r."
-				""
-				"Gravel macerates into &6Stone Dust&r, but with a low chance of Flint when the recipe is performed in a &6HV Macerator&r or above. You probably want to sift for Flint, anyway!"
-				""
-				"Flint Dust centrifuges into &aSilicon Dioxide&r, which is then electrolysed for Silicon and Oxygen."
-			]
-			id: "52868F643F0A1007"
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "cp_gravelpit"
-			tasks: [{
-				id: "3850F80F95B8E520"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.31d
-		}
-		{
-			dependencies: ["52868F643F0A1007"]
-			description: [
-				"Yet another &bForge Hammer&r step, but you'll be making &dSand&r renewably. With renewable Sand comes renewable Glass (remember to try using an &9Arc Furnace&r for that sweet &adoubled&r yield!)."
-				""
-				"Quartz Sand Dust centrifuges into a chanced output of &3Certus Quartz&r Dust."
-			]
-			id: "10FD7C65FC83ADD6"
-			shape: "rsquare"
-			size: 0.55d
-			subtitle: "Two vast and trunkless legs of stone..."
-			tasks: [{
-				id: "6724DCD56A7592FF"
-				item: "minecraft:sand"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.97d
-		}
-		{
-			dependencies: ["10FD7C65FC83ADD6"]
-			description: [
-				"Yup - &brenewable&r Glass."
-				""
-				"Glass'll always be useful throughout your playthrough in a variety of recipes."
-			]
-			id: "471B85B964C578A7"
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "Glass Hurts, doesn't it..."
-			tasks: [{
-				id: "71A450692F1DC98D"
-				item: "minecraft:glass"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.63d
-		}
-		{
 			dependencies: [
 				"55D8E30978CBBC0D"
 				"7567E885B7166603"
@@ -171,8 +91,8 @@
 			size: 0.66d
 			subtitle: "Mirabilite, Clay..."
 			tasks: [{
-				id: "6358C3084C675965"
-				item: "minecraft:diorite"
+				id: "1E7D0E128A92FFF6"
+				item: "tfc:rock/raw/diorite"
 				type: "item"
 			}]
 			x: 0.99d
@@ -194,34 +114,11 @@
 			size: 0.66d
 			subtitle: "Redrock, Silicon Dioxide..."
 			tasks: [{
-				id: "7D054563301323A4"
-				item: "minecraft:granite"
+				id: "0046FC15E292C1A2"
+				item: "tfc:rock/raw/granite"
 				type: "item"
 			}]
 			x: 1.65d
-			y: -2.64d
-		}
-		{
-			dependencies: [
-				"55D8E30978CBBC0D"
-				"4AFD3073C731A1E4"
-				"7FA0ACB7F161F378"
-			]
-			description: [
-				"Deepslate centrifuges into... you guessed it... Silicon Dioxide! You may want to set this up for the guaranteed Biotite output, as Biotite electrolyses into Fluorine."
-				""
-				"This is obviously a far better source of Biotite than Stone Dust. Hopefully, you didn't waste your time setting that up!"
-			]
-			id: "3B436487305AEE38"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Silicon Dioxide, Fluorine..."
-			tasks: [{
-				id: "64EF28C6902C7083"
-				item: "minecraft:deepslate"
-				type: "item"
-			}]
-			x: 2.31d
 			y: -2.64d
 		}
 		{
@@ -240,8 +137,8 @@
 			size: 0.66d
 			subtitle: "Asbestos, Saltpeter... (No Create)"
 			tasks: [{
-				id: "74AEE715BE76C0CF"
-				item: "minecraft:andesite"
+				id: "04FB6DC061711349"
+				item: "tfc:rock/raw/andesite"
 				type: "item"
 			}]
 			x: 2.97d
@@ -297,31 +194,6 @@
 			dependencies: [
 				"55D8E30978CBBC0D"
 				"26394C1290D70AB6"
-				"4AFD3073C731A1E4"
-				"16A6AE5C770DB83A"
-				"7FA0ACB7F161F378"
-			]
-			description: [
-				"Not to be confused with regular Granite, Red Granite has some useful utility when the dust is processed. "
-				""
-				"Electrolysing it yields Aluminium for slightly fewer steps than the renewable Clay electrolysis."
-			]
-			id: "789E2DC829DD1828"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Aluminium..."
-			tasks: [{
-				id: "10A533EC38D279DA"
-				item: "gtceu:red_granite"
-				type: "item"
-			}]
-			x: 2.97d
-			y: -0.33d
-		}
-		{
-			dependencies: [
-				"55D8E30978CBBC0D"
-				"26394C1290D70AB6"
 				"16A6AE5C770DB83A"
 			]
 			description: ["Marble Dust isn't anything to write home about, yielding Calcite and Magnesium."]
@@ -330,8 +202,8 @@
 			size: 0.66d
 			subtitle: "Calcite, Magnesium..."
 			tasks: [{
-				id: "0DED39C9E1966F0B"
-				item: "gtceu:marble"
+				id: "05007F84F690F121"
+				item: "tfc:rock/raw/marble"
 				type: "item"
 			}]
 			x: 2.31d
@@ -394,7 +266,6 @@
 			dependencies: [
 				"24A90D07C3A35370"
 				"2AD44111B9B39C90"
-				"6958029B5514D4EC"
 			]
 			description: [
 				"This was touched upon in the &5EV&r chapter, but we'll focus on what this distillation gets you here."
@@ -420,11 +291,7 @@
 			y: -0.7d
 		}
 		{
-			dependencies: [
-				"24A90D07C3A35370"
-				"5DBBD9B1F5B01F4E"
-				"6958029B5514D4EC"
-			]
+			dependencies: ["24A90D07C3A35370"]
 			description: [
 				"Carbon Monoxide is useful when making &6Butyraldehyde&r for your Laminated Glass in &9late IV&r."
 				""
@@ -450,11 +317,7 @@
 		}
 		{
 			dependencies: ["4D7A771B67DAFC6F"]
-			description: [
-				"Just so you're aware - vanilla farms such as &7Iron Golems&r or &ePiglins&r have been &4disabled&r in this pack. There are obviously ways to cheese the pack (such as some good old Minecraft &acapitalism&r, &mif you catch our drift&r), but we encourage you to try to play without taking advantage of some notorious vanilla \"&ocheese&r\"."
-				""
-				"It's possible that in the future, we'll just make a core-mod for the pack, so players can re-enable the disabled mob drops. For now, the drops are disabled via &5KubeJS script&r, so if you're script-savvy, the file can be removed at &o&7server_scripts/vanilla/loot_drops.js&r."
-			]
+			description: ["Just so you're aware - vanilla farms such as &7Iron Golems&r or &ePiglins&r have been &4disabled&r in this pack. There are obviously ways to cheese the pack (such as some good old Minecraft &acapitalism&r, &mif you catch our drift&r), but we encourage you to try to play without taking advantage of some notorious vanilla \"&ocheese&r\"."]
 			icon: "minecraft:iron_golem_spawn_egg"
 			id: "7ECD974215E77432"
 			shape: "circle"

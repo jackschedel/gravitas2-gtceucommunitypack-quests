@@ -5,15 +5,8 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:lv_electric_motor"
 	id: "7D50771C3FE033D7"
-	order_index: 1
-	quest_links: [{
-		id: "376725077649D2CC"
-		linked_quest: "5A8F0124E07D5025"
-		shape: "gear"
-		size: 1.2d
-		x: 2.25d
-		y: 0.0d
-	}]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2F7617C0C4B330DE"]
@@ -26,7 +19,7 @@
 				"&9-&r &dKeep Exact&r will make sure the exact amount of Fluid in the attached machine is being kept."
 			]
 			id: "47D4545452F05E37"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A cover!"
 			tasks: [{
@@ -49,7 +42,7 @@
 				"&l&3Lore:&r&o GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it's all been replaced by the almighty Robot Arm and various Filter Covers. Much more compact!"
 			]
 			id: "3DE7A2B91CFF48F6"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "You're going to hate making these"
 			tasks: [{
@@ -61,7 +54,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A8F0124E07D5025"]
 			description: [
 				"Less common as a component, but used in a number of critical machines."
 				""
@@ -70,7 +62,7 @@
 				"They can also accept various &9Item Filters&r."
 			]
 			id: "288CE4AA4C5AA8BF"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A crafting component, but also a cover!"
 			tasks: [{
@@ -82,14 +74,13 @@
 			y: 1.125d
 		}
 		{
-			dependencies: ["5A8F0124E07D5025"]
 			description: [
 				"When placed on a machine, pumps will transfer fluid. You can configure them to import or export."
 				""
 				"It can accept a &9Fluid Filter&r."
 			]
 			id: "2F7617C0C4B330DE"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A crafting component, but also a cover!"
 			tasks: [{
@@ -101,14 +92,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A8F0124E07D5025"]
 			description: [
 				"A specialized motor needed to make certain machines."
 				""
 				"One of the more intricate crafting components, as it's made using a motor."
 			]
 			id: "38993B4697B0E16C"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A crafting component - did you expect anything fancier?"
 			tasks: [{
@@ -120,10 +110,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4B979482EF026BFF"
-				"5A8F0124E07D5025"
-			]
 			description: [
 				"The &3Steam Turbine&r is the only Generator you can realistically use in &7LV&r. &2Later, you'll unlock more interesting Power options&r, such as natural gases or petrols."
 				""
@@ -187,7 +173,7 @@
 				"&6You will still need MV Circuits in order to make MV machines!&r"
 			]
 			id: "7567E885B7166603"
-						shape: "gear"
+			shape: "gear"
 			size: 1.5d
 			subtitle: "We're basically in MV now, right?"
 			tasks: [{
@@ -199,7 +185,6 @@
 			y: 3.360459183673477d
 		}
 		{
-			dependencies: ["4B979482EF026BFF"]
 			description: [
 				"Make some Battery Alloy, used for Battery Hulls."
 				""
@@ -207,7 +192,16 @@
 				""
 				"&9Note:&r This quest does &lnot&r contain functional Batteries - head downwards for that."
 			]
-			icon: "gtceu:battery_alloy_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:battery_alloy_ingot"
+			}
 			id: "6D9D54FAB21EC086"
 			shape: "rsquare"
 			size: 0.66d
@@ -244,7 +238,7 @@
 				"Where they shine is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
 			]
 			id: "7CCC1BDDE0C67F16"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Earlygame buffering"
 			tasks: [{
@@ -281,7 +275,7 @@
 			]
 			icon: "gtceu:storage_cover"
 			id: "1C767009F505A813"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Extra utility without taking up blockspace!"
 			tasks: [{
@@ -323,10 +317,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"4B979482EF026BFF"
-				"5A8F0124E07D5025"
-			]
 			description: [
 				"You could make any other &7LV&r Machine, but it would be easiest to start with the most useful one. We know, we know... you wanna make some of the crazier stuff first, but trust us, this is the best starting point."
 				""
@@ -341,7 +331,7 @@
 				"With this machine safely crafted - welcome to the age of all things electric!"
 			]
 			id: "32EA7E81885C8E87"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "No more painful wires!"
 			tasks: [{
 				id: "2B5BF6F3ED693B9E"
@@ -360,7 +350,7 @@
 				"This unlocks the ability to convert one &6Ingot into one Plate&r, which is a better ratio than the Forge Hammer."
 			]
 			id: "10ECB471A77F5136"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "The Bender bends!"
 			tasks: [{
 				id: "3AC3A8728EE60E4C"
@@ -381,7 +371,7 @@
 				"&oThe GT6 Lathe acts like GT5's, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!"
 			]
 			id: "07E7678095258EDB"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "The Lathe lathes!"
 			tasks: [{
 				id: "6781D0241D0564A5"
@@ -396,7 +386,7 @@
 			dependencies: ["32EA7E81885C8E87"]
 			description: ["One of the cheapest - if not the cheapest - &7LV&r machine. Use this to make &6Redstone-free Magnetic Rods&r for your Motors. Whenever you start to batch your Motors, this machine will save you stacks and stacks of Redstone."]
 			id: "29379C91D6E00436"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "The Polarizer polarizes!"
 			tasks: [{
 				id: "5EC42A72DEC6F9FC"
@@ -450,7 +440,7 @@
 				"&9Note:&r An in-depth tutorial about Multiblocks is given after you get the &3Electric Blast Furnace&r. We recommend you aim for that first."
 			]
 			id: "33263404ED38C6D2"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Boom, boom, boom, boom"
 			tasks: [{
@@ -475,7 +465,7 @@
 				"&l&3Lore:&r&o No version of GregTech has had actual Superconductors for &7LV&f up until Gregicality and GTCEu, though some modpacks had lossless cables."
 			]
 			id: "46AD7A6F3B6775F5"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "We aren't losing a single Amp more"
 			tasks: [{
@@ -621,7 +611,7 @@
 				"It'll also be required if you want to make Storage Disks from &bApplied Energistics 2&r."
 			]
 			id: "37307A46E70011D3"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "This machine does nothing exciting"
 			tasks: [{
 				id: "5521E4E26119E152"
@@ -730,7 +720,7 @@
 				"It's important to keep in mind that the EBF is a beefy boy. The minimum power cost to run a recipe is &9120 EU/t&r! That's slightly under 4 &7LV&r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this."
 			]
 			id: "1E9BE8D3F8A602DC"
-						shape: "gear"
+			shape: "gear"
 			size: 1.2d
 			subtitle: "A big milestone!"
 			tasks: [{
@@ -835,7 +825,7 @@
 				"There will be more Fluids to solidify, so you may re-purpose your &3Fluid Solidifier&r when not crafting Rubber - or make a second one!"
 			]
 			id: "581CDF545E1EA1FD"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "The Fluid Solidifier solidifies..."
 			tasks: [{
 				id: "20B1CA4DB2750E84"
@@ -890,7 +880,7 @@
 				}
 			}
 			id: "1646BF9194100E57"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Baby's first heating coil"
 			tasks: [{
 				count: 16L
@@ -918,7 +908,7 @@
 				"&5Writer:&r &oCome back to me when you are stronger, young Cricket.&r"
 			]
 			id: "1DA54DA70E12F499"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "What? Why?!"
 			tasks: [{
 				id: "5580AE2868E0E451"
@@ -1028,7 +1018,7 @@
 			]
 			icon: "gtceu:fluid_cell"
 			id: "292938760AB9A12B"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "GTCE killed cell chemistry... GTCE killed Cells!"
 			tasks: [
@@ -1061,7 +1051,7 @@
 			]
 			icon: "gtceu:rotor_casting_mold"
 			id: "115C4226F6473F0C"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Time to end the misery of hand crafting rotors!"
 			tasks: [
@@ -1088,7 +1078,16 @@
 				""
 				"The choice is yours. Save more materials? Make Soldering Alloy. Spend less time crafting materials? Tin is the way to go."
 			]
-			icon: "gtceu:soldering_alloy_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:soldering_alloy_ingot"
+			}
 			id: "713C8D6A20BF3A0E"
 			shape: "rsquare"
 			size: 0.66d
@@ -1103,10 +1102,7 @@
 			y: 5.625d
 		}
 		{
-			dependencies: [
-				"32B08E6F414A00C0"
-				"4B979482EF026BFF"
-			]
+			dependencies: ["32B08E6F414A00C0"]
 			description: [
 				"With &7LV&r power, the primary way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
 				""
@@ -1116,7 +1112,7 @@
 			]
 			icon: "gtceu:sapphire_dust"
 			id: "2F1CCFEBAB71B1F3"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "One Step Closer To MV"
 			tasks: [
 				{
@@ -1150,7 +1146,7 @@
 				"&cTake caution!&r Due to how ores work, directly smelting dusts into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide whether you want to prioritise direct value, or byproduct count."
 			]
 			id: "32B08E6F414A00C0"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Separating anything you can think of"
 			tasks: [{
 				id: "536874A8C35E1C86"
@@ -1202,7 +1198,7 @@
 				"&l&3Lore:&r&o In base GTCE, this was objectively the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity."
 			]
 			id: "5263F866638D875C"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Jack of Many Trades"
 			tasks: [{
 				id: "20EDB55B8D5CDAD6"
@@ -1282,7 +1278,7 @@
 				"&l&3Lore:&r&o Back in the days of GregTech 2, the Assembling Machine only had two slots, and was only really used for alternate Circuit and Hull recipes."
 			]
 			id: "63CD0236B337EAAD"
-						shape: "gear"
+			shape: "gear"
 			size: 1.2d
 			subtitle: "Assemblers, Avenge!"
 			tasks: [{
@@ -1313,7 +1309,7 @@
 			]
 			icon: "gtceu:item_voiding_cover"
 			id: "249B9E104CAF5FE6"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "The best mechanic - making an item or fluid disappear!"
 			tasks: [{
@@ -1379,7 +1375,7 @@
 				"&l&3Lore:&r&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu."
 			]
 			id: "199361B5FEC959EA"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Hopefully, your first MV Circuit expense"
 			tasks: [{
 				id: "6287E8A7C254ECA7"
@@ -1403,7 +1399,7 @@
 				"&oIn short, the &bPlasma Arc Furnace&f is &4gone&f. RIP."
 			]
 			id: "63256ED95F17B242"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Here lies Plasma Furnace"
 			tasks: [{
 				id: "2374C06C5E1EFC24"
@@ -1423,7 +1419,7 @@
 				"You &6should&r be able to charge this in the charger slot of any &bGregTech machine&r, but unfortunately, this is currently &cbugged&r. Have a look at the &dTurbo Charger&r quest in the top-right of this page if you want to charge this."
 			]
 			id: "0DAD0A6360448B39"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A familiar face in the land of Greg"
 			tasks: [{
@@ -1479,7 +1475,7 @@
 			]
 			icon: "gtceu:glue_bucket"
 			id: "0EAC071414AEC07E"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Extractor? I hardly knew 'er!"
 			tasks: [{
 				id: "284F6584EEEF3AD6"
@@ -1509,7 +1505,7 @@
 				"For &dArsenic&r, you will have to mine and &3centrifuge&r &aRealgar&r."
 			]
 			id: "4073577B7EF9B593"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "I hate byproducts, they're awesome"
 			tasks: [{
 				id: "0FDC60275B1959C3"
@@ -1537,7 +1533,7 @@
 				"&l&3Lore:&r&o Back in GTCEu 1.12.2, these circuit boards were called \"&2Good Circuit Boards&f\". Not exactly a fitting name, as they're &4rather evil&f to craft."
 			]
 			id: "3647B1B964A15E4E"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "A Good Board"
 			tasks: [{
 				id: "2DE7B75F25A4AB9E"
@@ -1574,7 +1570,7 @@
 				"&9https://www.youtube.com/watch?v=u0ouTWgdcXk&r"
 			]
 			id: "0E72017800A9766C"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Time to ditch those chests"
 			tasks: [{
@@ -1599,7 +1595,7 @@
 				"This is required for &dMV Circuits&r."
 			]
 			id: "7BE7DE4C0109D788"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Don't be swayed by JEI!"
 			tasks: [{
 				id: "0FE8CA1C2D212378"
@@ -1613,7 +1609,6 @@
 			dependencies: [
 				"3647B1B964A15E4E"
 				"7BE7DE4C0109D788"
-				"4B979482EF026BFF"
 			]
 			description: [
 				"Well... gotten any Aluminium Ingots yet?"
@@ -1625,7 +1620,7 @@
 				"&6Having this and Aluminium will grant access to MV Machines.&r"
 			]
 			id: "0DBC148D92A9F69F"
-						shape: "gear"
+			shape: "gear"
 			size: 1.2d
 			subtitle: "Does that mean we're at MV yet?"
 			tasks: [{
@@ -1646,7 +1641,7 @@
 			]
 			hide_dependent_lines: true
 			id: "45B71324028F6E68"
-						size: 0.75d
+			size: 0.75d
 			subtitle: "Aluminium, not \"Aluminum\""
 			tasks: [{
 				id: "144F4F8EF61BEEA5"
@@ -1693,7 +1688,7 @@
 			hide_dependency_lines: true
 			icon: "gtceu:lv_rock_crusher"
 			id: "1F2359106FC95603"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "What is this, Skyblock?"
 			tasks: [{
@@ -1880,7 +1875,7 @@
 			hide_dependency_lines: false
 			icon: "gtceu:lv_world_accelerator"
 			id: "113F3D2E48F62CBB"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "I Have Become Chronos"
 			tasks: [{
@@ -1931,32 +1926,6 @@
 			title: "At The Speed Of Light"
 			x: 7.875d
 			y: 1.125d
-		}
-		{
-			dependencies: ["46AD7A6F3B6775F5"]
-			description: [
-				"If you're a builder, &bweep no more&r - this custom multiblock, freshly made with the powers of &dKubeJS&r, is made for you."
-				""
-				"By providing the multiblock with a near-negligible amount of &6Construction Foam&r, you'll gain access to increased yields of many different &bbuilding blocks&r to spice up your base."
-				""
-				"Don't go too crazy!"
-				""
-				"&8(Crazy? I was crazy once!)&r"
-			]
-			hide_dependency_lines: false
-			icon: "gtceu:construction_core"
-			id: "11989C3388C969DF"
-						shape: "rsquare"
-			size: 0.75d
-			subtitle: "If you build it, they will come"
-			tasks: [{
-				id: "5635E327260121C3"
-				item: "gtceu:construction_core"
-				type: "item"
-			}]
-			title: "Building Resources"
-			x: 8.91d
-			y: 1.65d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
@@ -2185,7 +2154,7 @@
 			hide_dependency_lines: true
 			icon: "expatternprovider:fishbig"
 			id: "59BEB2AA9598A21D"
-						shape: "rsquare"
+			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Got enough time on your hands?"
 			tasks: [{

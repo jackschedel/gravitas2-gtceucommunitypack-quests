@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pack-heating_coils"
-	group: "78F1C802B893F66D"
+	group: "78F1C802B893F66E"
 	icon: "gtceu:cupronickel_coil_block"
 	id: "7C1306341997601D"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "709FB8C1561E7BB8"
@@ -17,12 +17,6 @@
 			id: "499941B0EDEFBF54"
 			linked_quest: "1C55AE6AD5BDE304"
 			x: -1.0d
-			y: -7.5d
-		}
-		{
-			id: "10F2DA9FCC5E3860"
-			linked_quest: "6B08799BCFD01D3D"
-			x: 0.5d
 			y: -7.5d
 		}
 		{
@@ -134,7 +128,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["6958029B5514D4EC"]
 			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6EV&r, with &bKanthal&r coils to boot."]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"

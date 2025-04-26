@@ -5,7 +5,7 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:zpm_electric_motor"
 	id: "0945247E83444D90"
-	order_index: 7
+	order_index: 5
 	quest_links: [
 		{
 			id: "6BE70146903B5CBD"
@@ -139,7 +139,16 @@
 				""
 				"Currently, you just need it to make &9Trinium Coils&r."
 			]
-			icon: "gtceu:enriched_naquadah_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:enriched_naquadah_ingot"
+			}
 			id: "74B037D7031F4A78"
 			shape: "rsquare"
 			size: 0.66d
@@ -287,7 +296,16 @@
 				"4C7C0F6A6598BC24"
 			]
 			description: ["&aNaquadria&r is an isotope of Naquadah, Nq-522. It's highly unstable, but it'll still be used for &3UV&r components, &9Fusion Mk2&r, and when fusing Neutronium."]
-			icon: "gtceu:naquadria_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:naquadria_ingot"
+			}
 			id: "6D1F10543A391940"
 			shape: "rsquare"
 			size: 0.66d
@@ -407,10 +425,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"35F13B6D60361904"
-				"3568BC9742092FC5"
-			]
+			dependencies: ["35F13B6D60361904"]
 			description: [
 				"The &aSterilized Cleanroom&r is required to produce the next tier of circuits. Nearly every step must be performed inside of one. Good luck fitting everything into such a tight space!"
 				""

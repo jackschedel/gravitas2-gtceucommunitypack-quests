@@ -5,7 +5,7 @@
 	group: "78F1C802B893F66D"
 	icon: "gtceu:mv_electric_motor"
 	id: "43E779CEEB25D55B"
-	order_index: 2
+	order_index: 1
 	quest_links: [{
 		id: "6FCAD016C795DE93"
 		linked_quest: "7567E885B7166603"
@@ -43,7 +43,7 @@
 			icon: "gtceu:pyrolyse_oven"
 			id: "53DC6E32C41C94C3"
 			optional: true
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Thermal Decomposition"
 			tasks: [{
@@ -73,7 +73,7 @@
 			]
 			icon: "gtceu:plant_ball"
 			id: "6EB68C28BEE24DEF"
-						size: 0.66d
+			size: 0.66d
 			subtitle: "Plants aren't industrial enough!"
 			tasks: [{
 				id: "4FBD476EB6B6DD04"
@@ -97,7 +97,7 @@
 			]
 			icon: "gtceu:mv_brewery"
 			id: "1A29EFBCEA017F99"
-						size: 0.66d
+			size: 0.66d
 			subtitle: "*hic*... *hic*"
 			tasks: [
 				{
@@ -294,9 +294,18 @@
 				""
 				"Have one EBF run off &bMV&r for Aluminium and any other recipes requiring &bMV&r Power, and one running off &6HV&r with &32 MV Energy Hatches&r."
 			]
-			icon: "gtceu:stainless_steel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:stainless_steel_ingot"
+			}
 			id: "16A6AE5C770DB83A"
-						shape: "gear"
+			shape: "gear"
 			size: 1.3d
 			subtitle: "HV is in your grasp"
 			tasks: [{
@@ -448,7 +457,7 @@
 			]
 			icon: "minecraft:clay_ball"
 			id: "2273DD7E5CD49017"
-						size: 0.66d
+			size: 0.66d
 			subtitle: "Clay is an extremely &mbalanced&r useful material for electrolysis"
 			tasks: [
 				{
@@ -501,7 +510,7 @@
 			]
 			icon: "gtceu:mv_miner"
 			id: "5C94CF50090D7DA0"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "431D533510584687"
@@ -541,9 +550,18 @@
 				""
 				"Take some Blue Steel free of charge - it's twice as durable as Steel."
 			]
-			icon: "gtceu:vanadium_steel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:vanadium_steel_ingot"
+			}
 			id: "682C26579EDDCA76"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Steel Your Heart"
 			tasks: [{
@@ -633,7 +651,7 @@
 			]
 			icon: "gtceu:mv_cutter"
 			id: "5CBBBFD1FBBE95CE"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Upgrades, people, upgrades!"
 			tasks: [{
@@ -680,7 +698,7 @@
 			]
 			icon: "gtceu:mv_energy_input_hatch"
 			id: "2AD44111B9B39C90"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "LV is so old-school!"
 			tasks: [{
@@ -737,12 +755,10 @@
 				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in JEI, even if they can draw enough EU/t with a lower tier hatch configuration."
 				""
 				"&9Note:&r The structure requires a lot of &9Wrought Iron&r. Make sure you have an &3Arc Furnace&r for that."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o We originally implemented a Chemical Reactor recipe for wood in the modpack to solve the tree problem. Our implementation turned out to be completely busted, so we decided that a rebalance was due. Hopefully, the Greenhouse is a happy middle ground."
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2655B72C9FF3B372"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "The power of KubeJS"
 			tasks: [{
@@ -824,7 +840,7 @@
 			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r and your shiny new &3Kanthal EBF&r."]
 			icon: "gtceu:transistor"
 			id: "375684F9CBEF9132"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "240735279EBC0193"
@@ -978,7 +994,7 @@
 			]
 			icon: "gtceu:mv_circuit_assembler"
 			id: "0DE5C3FBC9A6A690"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Yippee, yahoo"
 			tasks: [{
@@ -1001,7 +1017,7 @@
 			]
 			icon: "gtceu:multi_smelter"
 			id: "6DDDE2268B691F74"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Possibly the most powerful furnace you've seen"
 			tasks: [{
@@ -1069,7 +1085,6 @@
 			dependencies: [
 				"1FCF2C103E25972B"
 				"5063FDFFBE3E4855"
-				"3568BC9742092FC5"
 			]
 			description: [
 				"Your first &5EV&r Circuit gets a unique texture. If you still consider yourself to be in &bMV&r, &ahold off&r on making too many of these, as they won't benefit you right now. We can't stop you from making these if you &djust wanna flex&r on us, though."
@@ -1151,9 +1166,18 @@
 				""
 				"Furthermore, &aElectrotine&r can be separated for &dElectrum&r and &dRedstone&r."
 			]
-			icon: "gtceu:blue_alloy_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "gtceu:blue_alloy_ingot"
+			}
 			id: "1FCF2C103E25972B"
-						size: 0.66d
+			size: 0.66d
 			subtitle: "You're blue now... that's my alloy"
 			tasks: [{
 				id: "15C7369398FAB8DB"
@@ -1198,7 +1222,7 @@
 			]
 			icon: "gtceu:polyethylene_plate"
 			id: "10FB27DD3C7BEC2F"
-						shape: "gear"
+			shape: "gear"
 			size: 1.2d
 			subtitle: "Baby's first polymer!"
 			tasks: [{
@@ -1333,7 +1357,7 @@
 			]
 			icon: "gtceu:iron_iii_chloride_bucket"
 			id: "4353AB0E20601AEC"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Let's etch some Copper off Circuit Boards!"
 			tasks: [
@@ -1436,7 +1460,7 @@
 			]
 			icon: "gtceu:acid_hazard_sign_block"
 			id: "079442C113D54856"
-						shape: "circle"
+			shape: "circle"
 			size: 0.66d
 			subtitle: "...if you don't read this quest."
 			tasks: [{
@@ -1497,7 +1521,7 @@
 			]
 			icon: "gtceu:mv_extruder"
 			id: "22B5AD670496C02D"
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "The biggest upgrade you'll make"
 			tasks: [{
@@ -1689,7 +1713,7 @@
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
-						size: 0.66d
+			size: 0.66d
 			subtitle: "This quest was sponsored by the US Military"
 			tasks: [
 				{
@@ -1749,7 +1773,7 @@
 			icon: "gtceu:mv_distillery"
 			id: "6A304E453D74C57C"
 			min_required_dependencies: 2
-						shape: "square"
+			shape: "square"
 			size: 0.75d
 			subtitle: "The Illusion of Free Choice"
 			tasks: [{
@@ -1896,7 +1920,7 @@
 			]
 			icon: "gtceu:diesel_bucket"
 			id: "45769156F4253C86"
-						size: 0.66d
+			size: 0.66d
 			subtitle: "Mother, how is diesel made?"
 			tasks: [{
 				id: "10BAA54947D975AF"
@@ -1908,7 +1932,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1FFD2242B94A7378"]
 			dependency_requirement: "one_started"
 			description: [
 				"Regular &o&dGregTech&r Fluid Pipes can only transport one fluid type at a time."
@@ -2082,29 +2105,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["682C26579EDDCA76"]
-			description: [
-				"Tired of running around your base yet? &3Travel Anchors&r make their introduction in the latest update!"
-				""
-				"Aim the &aTravel Staff&r at a placed Anchor, then &6sneak-right-click&r to teleport on top. You can &bcustomise the appearance&r of a Travel Anchor by right-clicking it with a block in your off-hand, and you can &9rename&r Anchors in their GUI. The effective tool for breaking them is the &bWrench&r."
-				""
-				"The &dEnder Pearls&r necessary to craft more Anchors won't be available yet - take a small handful of Anchors to make life a &olittle&r easier."
-			]
-			icon: "travelanchors:travel_anchor"
-			id: "350E8A014DD8C838"
-						shape: "rsquare"
-			size: 0.66d
-			subtitle: "pshhh... nothin personnel... kid"
-			tasks: [{
-				id: "132FA856BB60C546"
-				item: "travelanchors:travel_staff"
-				type: "item"
-			}]
-			title: "Travel Anchors"
-			x: 1.125d
-			y: 3.75d
-		}
-		{
 			dependencies: [
 				"6238B2A7ED1BE5A1"
 				"3E2E161F8CE35138"
@@ -2184,36 +2184,6 @@
 			title: "Tricorder"
 			x: 5.996173469387756d
 			y: -0.3042091836734713d
-		}
-		{
-			dependencies: ["0EFEE489906256AA"]
-			description: [
-				"In this quest, we'll bestow upon you &5cursed wisdom&r... the ability to easily automate the Electrolyzer."
-				""
-				"The &9Smart Item Filter&r is a filter that recognises Recipe Maps. When placed on the side of a machine, you can set it to \"&3Electrolyzer&r\" to allow insertion of electrolyzable items specifically. You heard that right - no need to filter manually!"
-				""
-				"Oh, and it only gets &abetter&r. If you combine this bad boy with a &aRobot Arm&r, it'll only supply the &6exact amount&r of items required for a successful recipe to the machine."
-				"{@pagebreak}"
-				"Place the &aRobot Arm&r on your Electrolyzer, open its GUI, then place the &9Smart Filter&r inside. Ensure that the Smart Filter is set to Electrolyzer."
-				""
-				"Next, configure it to &d&lImport&r and &d&lSupply Exact&r. Finally, attach any inventory &7(a chest will do)&r onto the side where you placed the &aRobot Arm&r. Ta-dah! You've figured out how to handle &6all&r Electrolyzer recipes!"
-				""
-				"What about the output of the &3Electrolyzer&r? You may want to route the Fluids to several Tanks - or even &3Super Tanks&r if you've gotten that far. We highly recommend that you avoid any methods involving voiding Fluids.&7.&8. except for Water for obvious reasons."
-				"{@pagebreak}"
-				"&9Note:&r The Robot Arm has to facilitate the item transfer for its filtering functionality to work! Inserting directly into the machine &7(for instance, pushing with a Hopper!)&r will ignore the Robot Arm's &dSupply Exact&r setting."
-			]
-			icon: "gtceu:item_smart_filter"
-			id: "63AE94F1F504DE76"
-			size: 0.66d
-			subtitle: "Knock, knock - who's that? It's MENSA!"
-			tasks: [{
-				id: "1C19F21F1416DD52"
-				item: "gtceu:item_smart_filter"
-				type: "item"
-			}]
-			title: "200IQ"
-			x: -1.123469387755101d
-			y: 2.445153061224488d
 		}
 	]
 	subtitle: ["Venture into petrochemistry and refine electronics"]

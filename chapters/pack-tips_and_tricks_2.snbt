@@ -2,14 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "pack-tips_and_tricks_2"
-	group: "78F1C802B893F66D"
+	group: "78F1C802B893F66E"
 	icon: "gtceu:computer_monitor_cover"
 	id: "6049B9A595052948"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["03DBF1961AE21C76"]
 			description: [
 				"You might already be familiar with EU as the Energy Unit for Electric machines - but what about Steam?"
 				""
@@ -385,7 +384,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3568BC9742092FC5"]
 			description: [
 				"First off, be sure to check the &9tooltip&r - there's a lot of information in there!"
 				""
@@ -611,7 +609,6 @@
 			y: 1.98d
 		}
 		{
-			dependencies: ["7813F183681E0342"]
 			description: [
 				"&lWhy process ore?"
 				""
@@ -643,7 +640,7 @@
 			]
 			icon: "gtceu:crushed_redstone_ore"
 			id: "189612F2C7C60E81"
-						size: 0.66d
+			size: 0.66d
 			tasks: [
 				{
 					id: "26D2F1DD581B726D"
