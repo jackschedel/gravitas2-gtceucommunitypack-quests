@@ -1417,11 +1417,7 @@
 		}
 		{
 			dependencies: ["0E6AA29E5D5D2724"]
-			description: [
-				"&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from JEI up to 32 EU/t (&7LV&r-tier)."
-				""
-				"&6This quest unlocks a new tutorial on Steam in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
-			]
+			description: ["&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from JEI up to 32 EU/t (&7LV&r-tier)."]
 			id: "1379744A8015B46E"
 			shape: "square"
 			size: 1.0d
@@ -1491,8 +1487,8 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 5.5d
-			y: -1.5d
+			x: 5.000000000000002d
+			y: -1.8000000000000003d
 		}
 		{
 			dependencies: ["59BDE76B679AB4CC"]
@@ -1685,6 +1681,38 @@
 			title: "The First of Many Motors"
 			x: 16.5d
 			y: -3.200000000000001d
+		}
+		{
+			dependencies: ["1379744A8015B46E"]
+			description: [
+				"You might already be familiar with EU as the Energy Unit for Electric machines - but what about Steam?"
+				""
+				"Steam machines will run using a proportional amount of steam at a 1:1 ratio of EU to Steam as listed in your recipe viewer of choice."
+				"{@pagebreak}"
+				"After each recipe, the Steam machines will vent cooler steam (with snazzy particles) from the side with the square. This is the exhaust port."
+				""
+				"Important: Keep the exhaust port unblocked - this is neither an input nor an output slot! If the machine fails to vent steam, it will stop working."
+				""
+				"Reminder: Use your Wrench to change which side the exhaust port is facing (right-click)."
+				"{@pagebreak}"
+				"Regular Steam Machines are twice as slow to complete recipes as is listed in JEI. To bring your machines up to speed, you may want to pursue High Pressure Steam machinery."
+				""
+				"High Pressure Steam Machines are the same speed as indicated by JEI, but with adjusted steam consumption. You will unlock them once you obtain Steel."
+				"{@pagebreak}"
+				"Psst! If you're not in a Hardcore world, we invite you to stand on top of pipes transporting steam, or stand right in front of the vent as the machines are running recipes."
+			]
+			icon: "gtceu:steam_machine_casing"
+			id: "078D8984ED91F860"
+			shape: "square"
+			size: 1.0d
+			subtitle: "https://store.steampowered.com/"
+			tasks: [{
+				id: "3C8A8FCAF9411342"
+				type: "checkmark"
+			}]
+			title: "Steam Power"
+			x: 6.199999999999999d
+			y: -1.2999999999999998d
 		}
 	]
 	title: "{gravitas.chapters.32.title}"
