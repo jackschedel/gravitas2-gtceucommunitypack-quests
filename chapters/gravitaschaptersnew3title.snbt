@@ -925,8 +925,8 @@
 				title: "Quests By AllTheMods"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			id: "78729E7428CA3CC5"
@@ -939,28 +939,55 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["15BC783BB17EE2D4"]
-			id: "7F1BCDC6015450E3"
-			optional: true
-			tasks: [{
-				id: "657539BF8DFA3151"
-				item: "tfc:metal/bucket/red_steel"
+			dependencies: [
+				"6D4C17EC5FAE5B56"
+				"00F25F9C1F5B5DBB"
+			]
+			description: ["{gravitas.quest.stage3.desc.ankh}"]
+			id: "083350648FB5B236"
+			rewards: [{
+				id: "1ACB6AC139E7818E"
+				item: "tombstone:scroll_of_knowledge"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			tasks: [
+				{
+					id: "752328799C693DF6"
+					item: {
+						Count: 1
+						id: "tombstone:ankh_of_prayer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E550D74E76FE79"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["4C8385E2ACE406EE"]
-			id: "7EB88E199107EB87"
-			optional: true
+			description: ["{gravitas.quest.stage3.desc.undeath}"]
+			id: "6D4C17EC5FAE5B56"
+			shape: "gear"
 			tasks: [{
-				id: "7FB8D2CE696D71DA"
-				item: "tfc:metal/bucket/blue_steel"
+				id: "7073C9B46A245141"
+				item: "tombstone:essence_of_undeath"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: -6.0d
+			y: -2.0d
 		}
 	]
 	title: "{gravitas.chapters.3.title}"

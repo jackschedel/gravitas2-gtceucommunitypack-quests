@@ -6,7 +6,50 @@
 	icon: "ae2:controller"
 	id: "0D0CB89177ACE489"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "612628F823CA0526"
+			linked_quest: "5FAA73C52082DC48"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "5B271FD56A80B9E7"
+			linked_quest: "063F5023D56CA6B1"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "267272AB9CDE55A7"
+			linked_quest: "688AFF76CF5E599A"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "3FA97B900E055D87"
+			linked_quest: "08DFDB0C89F9A9AA"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "236EC3CA16A5040A"
+			linked_quest: "26004F997C758011"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "23BFFCF26C9D0557"
+			linked_quest: "3FDC2A2BBAC0EF1B"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "1D168966DE454997"
+			linked_quest: "20A0A574F51EEF74"
+			x: 4.5d
+			y: -3.5d
+		}
+	]
 	quests: [
 		{
 			can_repeat: false
@@ -47,7 +90,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["198B36CE8CFAC2FF"]
+			dependencies: [
+				"198B36CE8CFAC2FF"
+				"08DFDB0C89F9A9AA"
+			]
 			description: ["{gravitas.quest.ae.desc.certane_chem_one}"]
 			id: "2EC439D19E6D4571"
 			subtitle: "{gravitas.quest.ae.subtitle.certane_chem_one}"
@@ -60,7 +106,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2EC439D19E6D4571"]
+			dependencies: [
+				"2EC439D19E6D4571"
+				"08DFDB0C89F9A9AA"
+			]
 			description: ["{gravitas.quest.ae.desc.certane_chem_two}"]
 			id: "271A3551ACD6ED91"
 			subtitle: "{gravitas.quest.ae.subtitle.certane_chem_two}"
@@ -73,7 +122,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["271A3551ACD6ED91"]
+			dependencies: [
+				"271A3551ACD6ED91"
+				"08DFDB0C89F9A9AA"
+			]
 			description: ["{gravitas.quest.ae.desc.certane_chem_three}"]
 			id: "4B19174C909981E7"
 			subtitle: "{gravitas.quest.ae.subtitle.certane_chem_three}"
@@ -86,7 +138,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4B19174C909981E7"]
+			dependencies: [
+				"4B19174C909981E7"
+				"08DFDB0C89F9A9AA"
+			]
 			description: ["{gravitas.quest.ae.desc.certane}"]
 			id: "7DF03381A7C83A09"
 			subtitle: "{gravitas.quest.ae.subtitle.certane}"
@@ -100,6 +155,7 @@
 		}
 		{
 			dependencies: [
+				"688AFF76CF5E599A"
 				"7DF03381A7C83A09"
 				"1249F196AB8BA74B"
 			]
@@ -115,6 +171,10 @@
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"262AE37765B139BE"
+				"61262BC1C525E6F1"
+			]
 			description: ["{gravitas.quest.ae.desc.vapor_chamber}"]
 			id: "1249F196AB8BA74B"
 			tasks: [{
@@ -126,7 +186,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5D8281083DCE0F97"]
+			dependencies: [
+				"5D8281083DCE0F97"
+				"5FAA73C52082DC48"
+				"063F5023D56CA6B1"
+			]
 			description: ["{gravitas.quest.ae.desc.ae_circuits}"]
 			icon: "ae2:engineering_processor"
 			id: "7448644540412CF5"
@@ -228,7 +292,12 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3B7DCF7086FC8143"]
+			dependencies: [
+				"26004F997C758011"
+				"3FDC2A2BBAC0EF1B"
+				"20A0A574F51EEF74"
+				"3B7DCF7086FC8143"
+			]
 			description: ["{gravitas.quest.ae.desc.ae_wafers}"]
 			id: "5D8281083DCE0F97"
 			tasks: [
@@ -554,6 +623,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["262AE37765B139BE"]
 			icon: "gtceu:mv_canner"
 			id: "62BFF78D96339CCC"
 			subtitle: "{gravitas.quest.ae.subtitle.canner}"
