@@ -241,24 +241,6 @@
 				type: "item"
 			}]
 			title: "{gravitas.quest.steam.brassPlates}"
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["46765C2E3D0224DD"]
-			id: "34FF68125977821B"
-			rewards: [{
-				count: 3
-				id: "323EA259EDDDFF56"
-				item: "tfc:fire_clay"
-				type: "item"
-			}]
-			subtitle: "{gravitas.quest.steam.subt.cruc}"
-			tasks: [{
-				id: "7DBA87EDE29A9BC1"
-				item: "tfc:crucible"
-				type: "item"
-			}]
 			x: 4.0d
 			y: -1.5d
 		}
@@ -1258,7 +1240,7 @@
 		{
 			dependencies: [
 				"3C3C29A38BA7E365"
-				"34FF68125977821B"
+				"46765C2E3D0224DD"
 			]
 			description: [
 				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
@@ -1282,8 +1264,27 @@
 			size: 1.0d
 			subtitle: "Putting the Steam in Steam Age"
 			tasks: [{
-				id: "7EB6478949C435A5"
-				item: "gtceu:lp_steam_solid_boiler"
+				id: "26B90B3202FB2C30"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_solid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_solar_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_liquid_boiler"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			title: "Pressure Cookin'"
@@ -1344,8 +1345,8 @@
 				type: "item"
 			}]
 			title: "Armoured Tanks"
-			x: 2.5d
-			y: -3.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0401A55C32485482"]

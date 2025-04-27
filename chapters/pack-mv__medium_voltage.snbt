@@ -1649,7 +1649,7 @@
 			]
 			title: "America Simulator"
 			x: -2.25d
-			y: -0.75d
+			y: -0.85d
 		}
 		{
 			dependencies: [
